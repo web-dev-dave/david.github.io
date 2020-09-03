@@ -2,3 +2,19 @@
   background-color: #a1efff;
   /* color: #89d991; */
 }
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.bree-serif {
+  font-family: 'Bree Serif', serif;
+  font-size: 4em;
+}
+
+h1 {
+  font-size: 120em;
+  text-align: right;
+  margin-right: 2em;
+  font-family: 'Source Sans Pro', sans-serif;
+}
