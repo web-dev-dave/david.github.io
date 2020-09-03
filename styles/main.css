@@ -1,7 +1,3 @@
-html {
-  background-image: linear-gradient(#a1efff, white);
-  min-height: 100%;
-}
 
 .bg-alright {
   background-color: #a1efff;
@@ -17,9 +13,23 @@ body {
   font-size: 4em;
 }
 
-h1 {
-  font-size: 120em;
-  text-align: right;
-  margin-right: 2em;
-  font-family: 'Source Sans Pro', sans-serif;
+.intro {
+  font-size: 20pt;
+  font-family: 'Bree Serif', serif;
+  text-align: center;
+  width: 400px;
+  margin: auto;
+}
+
+#o {
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+#t {
+  font-family: 'Dancing Script', cursive;
+}
+
+.inline {
+  display: inline;
 }
