@@ -1,3 +1,8 @@
+html {
+  background-image: linear-gradient(#a1efff, white);
+  min-height: 100%;
+}
+
 .bg-alright {
   background-color: #a1efff;
   /* color: #89d991; */
