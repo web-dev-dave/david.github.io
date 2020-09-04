@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  height: 2054px;
+  height: 2500px;
   }
 
 .bree-serif {
@@ -79,4 +79,30 @@ h2 {
   text-align: center;
   font-size: 18pt;
   font-family: 'Bree Serif', 'Source Sans Pro', sans-serif;
+}
+
+.goku {
+  height: 300px;
+  width: auto;
+  /* border-width: thick;
+  border-color: blue;
+  border-style: solid; */
+}
+
+.goku2 {
+  height: 300px;
+  width: auto;
+  display: block;
+  /* border-width: thick;
+  border-color: blue;
+  border-style: solid; */
+}
+
+.goku3 {
+  height: 300px;
+  width: auto;
+  display: inline-block;
+  /* border-width: thick;
+  border-color: blue;
+  border-style: solid; */
 }
