@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  height: 2500px;
+  height: 3000px;
   }
 
 .bree-serif {
@@ -95,4 +95,29 @@ h2 {
   /* border-width: thick;
   border-color: blue;
   border-style: solid; */
+}
+
+.button {
+  text-decoration: none;
+  background-color: lightblue;
+  color: gray;
+  opacity: 70%;
+  /* padding: 10px 10px; */
+}
+
+.button1 {
+  text-decoration: none;
+  background-color: lightblue;
+  color: gray;
+  padding: 20px 50px;
+  opacity: 70%;
+}
+
+.button2 {
+  display: inline-block;
+  text-decoration: none;
+  background-color: lightblue;
+  color: gray;
+  padding: 20px 50px;
+  opacity: 70%;
 }

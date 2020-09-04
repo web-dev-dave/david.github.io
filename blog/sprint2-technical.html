@@ -51,12 +51,13 @@
   </header>
   <main>
     <div class="m-4" id="font-size">
-      <h1>The display property</h1>
-      <h2 class="border-bottom pb-3">and inline vs block</h2>
-      <p class="mt-3">HTML are made up of elements and each element is has a default display. We can manipulate this <strong>display</strong> property to change how we view them. The two values I will be talking about today is inline and block</p>
+      <h1 class="border-bottom pb-3">Block, Inline and Inline-block</h1>
+      <p class="mt-3">Understaning how block, inline, and inline-block each behave is very important when learning CSS, as well as knowing why you might want to switch the display property of an element every now and then.</p>
       <p class="border-bottom pb-2">The tag I am currently writing in now the &lt;p&gt; tag has a default display property of block. The same goes for &lt;div&gt; tags, they are also a block element and have the default display value of block. Let's look at a visual example below</p>
     </div>
-      <p class="block-test mt-4 mb-4">I will demonstrate using the background color to show you a block display value. Using a background colour we can see how the block goes from the left side of the page all the way to the right side of the page.</p>
+      <p class="block-test mt-4 mb-1">I will demonstrate using the background color to show you a block display value. Using a background colour we can see how the block goes from the left side of the page all the way to the right side of the page. Notice even where the paragraph stops the colour still runs to the end of the page showing the block.</p>
+      <p class="block-test mb-4">Block elements will always stack on top of one another, even if there is room to place next to one another in your code. I have added a little bit of margin to seperate the colour just to exaggerate the example.
+      By default they will take up 100% width of a page meaning if you were to resize the window they will still span from left to right.</p>
       <h2 class="border-top ml-4 mr-4">Here are some examples of block-level elements</h2>
     <div>
       <ul class="m-2 inline-block">
@@ -69,21 +70,26 @@
         <li>&lt;section&gt;</li>
       </ul>
     </div>
-      <p class="m-4 border-bottom pb-3" id="font-size">If we now take a look at the inline display value and using the same technique showing colour to represent how it looks we see that when we apply it will only be as wide as its container <span id="spantest">Here we can see a span element which its default display value is inline</span></p>
+      <p class="m-4 border-bottom pb-3" id="font-size">If we now take a look at the inline display value and using the same technique showing colour to represent how it looks we see that the big distinction is an inline element will only take up the width of the content themselves. <span id="spantest">Here we can see a span element which its default display value is inline</span></p>
       <h2 class="ml-4 mr-4">Here are some examples of inline-level elements</h2>
       <div>
         <ul class="m-2 inline-block">
           <li>&lt;span&gt;</li>
           <li>&lt;a&gt;</li>
           <li>&lt;img&gt;</li>
+          <li>&lt;button&gt;</li>
+          <li>&lt;strong&gt;</li>
+          <li>&lt;script&gt;</li>
+          <li>&lt;video&gt;</li>
         </ul>
+        <p class="m-4 border-bottom pb-3" id="font-size">Now lets see where we could use an inline-block element. Here I have added a <a href="#" class="button">link/button.</a>Now watch what happens when I duplicate the code and add padding to the inline element <a href="#" class="button1">link/button.</a>The element's padding is now messing with our paragraph block element. In order to solve this issue lets apply the inline-block styling and see what happens..<a href="#" class="button2">link/button.</a>Now we see that the link/button element acts as a block element pushing the paragraph above and below it. It also remains inline so our paragraph text will wrap around it. An important thing to note is that whatever is wrapped around a block-inline element it will inherit the height of any styling that changes it dimension. In this case here the padding applied to the link/button.</p>
       </div>
       <div>
-        <h2 class="border-top pt-3 ml-4 mr-4">Now we've seen how elements use their default display values, lets use an image which traditionally has an inline-level element and apply our own display property to it using CSS.</h2>
+        <h1 class="pt-3 ml-4 mr-4">Lets use an image which traditionally has an inline-level element and apply our own display property to it using CSS.</h1>
       </div>
       <div>
         <p class="m-4 border-bottom pb-3" id="font-size">Here we have Earth's greatest hero <img class="goku" src="https://i.pinimg.com/originals/21/6f/69/216f69f569a73717d54db552551ad43f.jpg" alt="Goku">I have used the &lt;img&gt; element to place him, and as we have learnt the &lt;img&gt; default display value is inline. Meaning it only takes up the size of the element's container. In this case, the picture.</p>
-        <p class="m-4 border-bottom pb-3" id="font-size">Here we have Earth's greatest hero <img class="goku2" src="https://i.pinimg.com/originals/21/6f/69/216f69f569a73717d54db552551ad43f.jpg" alt="Goku">I have used the &lt;img&gt; element to place him, and as we have learnt the &lt;img&gt; default display value is inline. Meaning it only takes up the size of the element's container. But in this case I have applied the css styling display: block;. Now we see like our background colour from earlier that the element (Goku) is utilizing the entire width of the webpage.</p>
+        <p class="m-4 border-bottom pb-3" id="font-size">Here we have Earth's greatest hero <img class="goku2" src="https://i.pinimg.com/originals/21/6f/69/216f69f569a73717d54db552551ad43f.jpg" alt="Goku">In this case I have applied the css styling display: block;. Now we see like our background colour from earlier that the element (Goku) is utilizing the entire width of the webpage and has stacked our paragraph block above and below the image.</p>
       </div>
   </main>
 
