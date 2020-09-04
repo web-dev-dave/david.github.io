@@ -1,0 +1,47 @@
+
+.bg-alright {
+  background-color: #a1efff;
+  /* color: #89d991; */
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.bree-serif {
+  font-family: 'Bree Serif', serif;
+  font-size: 4em;
+}
+
+.intro {
+  font-size: 20pt;
+  font-family: 'Bree Serif', serif;
+  text-align: center;
+  width: 400px;
+  margin: auto;
+  margin-top: 4em;
+}
+
+#o {
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+#t {
+  font-family: 'Dancing Script', cursive;
+}
+
+.inline {
+  display: inline;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  background-color: white;
+  color: white;
+  text-align: center;
+}
