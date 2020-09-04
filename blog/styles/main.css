@@ -6,7 +6,8 @@
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-}
+  height: 2054px;
+  }
 
 .bree-serif {
   font-family: 'Bree Serif', serif;
@@ -44,4 +45,38 @@ body {
   background-color: white;
   color: white;
   text-align: center;
+  opacity: 60%;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Bree Serif', 'Source Sans Pro', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Bree Serif', 'Source Sans Pro', sans-serif;
+}
+
+.block-test {
+  background-color: #a1efff;
+  font-size: 18pt;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#font-size {
+  font-size: 18pt;
+}
+
+#spantest {
+  background-color: #a1efff;
+  font-size: 18pt;
+}
+
+.inline-block {
+  display: inline;
+  text-align: center;
+  font-size: 18pt;
+  font-family: 'Bree Serif', 'Source Sans Pro', sans-serif;
 }

@@ -50,10 +50,34 @@
     </nav>
   </header>
   <main>
-    <div>
+    <div class="m-4" id="font-size">
       <h1>The display property</h1>
-      <h2>and inline vs block</h2>
+      <h2 class="border-bottom pb-3">and inline vs block</h2>
+      <p class="mt-3">HTML are made up of elements and each element is has a default display. We can manipulate this <strong>display</strong> property to change how we view them. The two values I will be talking about today is inline and block</p>
+      <p class="border-bottom pb-2">The tag I am currently writing in now the &lt;p&gt; tag has a default display property of block. The same goes for &lt;div&gt; tags, they are also a block element and have the default display value of block. Let's look at a visual example below</p>
     </div>
+      <p class="block-test mt-4 mb-4">I will demonstrate using the background color to show you a block display value. Using a background colour we can see how the block goes from the left side of the page all the way to the right side of the page.</p>
+      <h2 class="border-top ml-4 mr-4">Here are some examples of block-level elements</h2>
+    <div>
+      <ul class="m-2 inline-block">
+        <li>&lt;div&gt;</li>
+        <li>&lt;h1 - h6&gt;</li>
+        <li>&lt;p&gt;</li>
+        <li>&lt;form&gt;</li>
+        <li>&lt;header&gt;</li>
+        <li>&lt;footer&gt;</li>
+        <li>&lt;section&gt;</li>
+      </ul>
+    </div>
+      <p class="m-4 border-bottom pb-3" id="font-size">If we now take a look at the inline display value and using the same technique showing colour to represent how it looks we see that when we apply it will only be as wide as its container <span id="spantest">Here we can see a span element which its default display value is inline</span></p>
+      <h2 class="ml-4 mr-4">Here are some examples of inline-level elements</h2>
+      <div>
+        <ul class="m-2 inline-block">
+          <li>&lt;span&gt;</li>
+          <li>&lt;a&gt;</li>
+          <li>&lt;img&gt;</li>
+        </ul>
+      </div>
   </main>
 
   <footer class="footer">
