@@ -26,8 +26,33 @@ body {
   margin-top: 20px;
 }
 
+#o:hover {
+  background-color: black;
+  color: white;
+}
+
 #t {
   font-family: 'Dancing Script', cursive;
+}
+
+#t:hover {
+  font-family: sans-serif, serif;
+}
+
+#c:hover {
+  color: orange;
+}
+
+#h:hover {
+  font-size: 40pt;
+}
+
+#f:hover {
+  font-family: monospace;
+}
+
+#s:hover {
+  direction: rtl;
 }
 
 .inline {
