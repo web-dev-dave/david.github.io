@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  height: 3000px;
+  /* height: 3000px; */
   }
 
 .bree-serif {
@@ -41,7 +41,7 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 10%;
+  height: 5%;
   background-color: white;
   color: white;
   text-align: center;
