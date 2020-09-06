@@ -118,3 +118,8 @@ h2 {
 p {
   text-align: center;
 }
+
+.list-plan {
+  font-size: 1.2em;
+  font-weight: bold;
+}
