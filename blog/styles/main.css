@@ -31,6 +31,15 @@ body {
   font-family: 'Dancing Script', cursive;
 }
 
+.imgCent {
+  display: block;
+  float: left;
+  margin-left: auto;
+  margin-right: 20px;
+  width: 50%;
+  outline: 1px solid black;
+}
+
 .inline {
   display: inline;
 }
