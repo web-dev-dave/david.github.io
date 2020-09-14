@@ -40,6 +40,13 @@ body {
   outline: 1px solid black;
 }
 
+.center {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+}
+
 .inline {
   display: inline;
 }
