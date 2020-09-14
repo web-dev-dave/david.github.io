@@ -31,11 +31,20 @@ body {
   font-family: 'Dancing Script', cursive;
 }
 
-.imgCent {
+.imgLeft {
   display: block;
   float: left;
   margin-left: auto;
   margin-right: 20px;
+  width: 50%;
+  outline: 1px solid black;
+}
+
+.imgRight {
+  display: block;
+  float: right;
+  margin-left: 20px;
+  margin-right: auto;
   width: 50%;
   outline: 1px solid black;
 }
