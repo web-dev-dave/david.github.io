@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/main.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <title>Welcome to my humble site</title>
+
+  <!-- By the end of the challenge, you should be able to:
+
+- Set up a basic HTML page with the appropriate tags (html, head, title, etc.) done
+- Add paragraphs, headings, links, images, lists, and/or tables
+- Divide content on a page using divs and spans
+- Link an external stylesheet to an html document
+- Position elements using CSS
+- Modify element style (size, color, etc) using CSS
+- Compare and use classes and ids to manipulate elements -->
+
+</head>
+
+<body>
+  <header>
+    <!-- <h1 class="h1">Thanks for stopping by...</h1> -->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+      <!-- Main Navigation inside <header> -->
+      <div>
+        <ul class="navbar-nav bree-serif">
+          <li class="nav-item">
+            <a class="nav-link" href="https://web-dev-dave.github.io/david.github.io/index.html">Home</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1 class="text-white bg-dark">Solving problems...</h1>
+      <p class="text-center text-white bg-info" style="line-height: 1.8">
+        <strong>If you having code problems I feel bad for you son I got 99 problems and I've solved one so I still got 98 left...<strong>
+      </p>
+      <h2 class="text-dark text-left">Working through Repl.it</h2>
+      <p class="text-left" style="line-height: 2.2">
+        Wowee what a week it has been. Week 4 almost done and dusted... Safe to say it has been a challenging one for me and one I've enjoyed thoroughly. I discovered a lot about my learning style and problem-solving towards coding and I am proud for the way I managed my time during this week.
+      </p>
+      <p class="text-left" style="line-height: 2.2">
+        When I first started the kata challenges I found the first two exercises fairly straight forward and easy to navigate my way around. The one's after I found far more challenging and small errors started to occur. One example of this was having to create a block of code that would then show or <strong>return</strong> a message. In my case, the message was "Bilbo won the running event!"
+      </p>
+      <img class="center" src="imgs/bilbo.png" alt="kata exercise">
+      <p class="text-left" style="line-height: 2.2">
+        It took me a while to figure out why I was getting an error. It looked to me as though I was returning the string the way they asked for it. Then I clicked an additional single character <i>"</i> found at the end of my sentence was resulting in the error!
+      </p>
+      <img class="center" src="imgs/string.png" alt="kata exercise">
+      <p class="text-left" style="line-height: 2.2">
+        Where I went wrong was in using a feature called template literals I forgot that the <i>``</i> become <i>""</i> when the feature is executed. Once I fixed this the code worked perfectly! It showed me that such a simple single character error can disrupt the whole code functionality. Great lesson to learn.
+      </p>
+      <h2 class="text-white bg-info text-right">Solving a problem with elegance</h2>
+      <p class="text-left" style="line-height: 2.2">
+        I think I achieved this when I came to the last challenge in built-in methods. I was happy to see my solution worked by utilizing JavaScript regular expressions. Regular expressions are patterns that we can use to match character combinations in strings. I learnt a bit about regex (regular expressions) through <a href="https://www.freecodecamp.org/">freecodecamp</a>
+      </p>
+      <p class="text-left" style="line-height: 2.2">
+        The challenge was to remove the word "buzz" from any string that was input into the function. So using regex I came up with the following...
+      </p>
+      <img class="center" src="imgs/regex.png" alt="kata exercise">
+      <p class="text-left" style="line-height: 2.2">
+        To breakdown my code I first used the in-built function <i class="text-danger">.replace()</i> this finds something and then replaces it with the second parameter. I had to remove the word buzz completely so I replaced it with an empty string. Using regex syntax <i class="text-danger">(/<strong>Insert what to look for</strong>/)</i> I searched for 0 or more occurrences of the word "buzz" the symbols that preceed "buzz" employ this the <i class="text-danger">\s</i> also removed the white space preceding "buzz". The characters after the word are called flags. The <i class="text-danger">g</i> flag represents global, which means it will search and match all occurrences. Without it, it would just match the first instance of it. The <i class="text-danger">i</i> flag means it is case insensitive. As you can see I typed in "BuZz" and it still matched with "Buzz, buzz, BUZZ" etc.
+      </p>
+      <h2 class="text-white bg-info text-center">Learning about how I deal with problems</h2>
+      <p class="text-left" style="line-height: 2.2">
+        I've certainly discovered a few methods I encourage myself to keep using to further my learning and how I learn. I am incredibly proud of my goal setting especially earlier in the week when I was stumped with the Kata's I told myself "you have the time, go back and reinforce the basics". I straight away mentioned my plan of attack to my facilitator so that it was set in stone. In doing so I held myself accountable to following through with my plan.
+      </p>
+      <p class="text-left" style="line-height: 2.2">
+        Not only did I go through the freecodecamp basics a third time. I carried on with the lessons delving deeper into JavaScript (there's quite a lot you can do!). Once I came back to the kata's I felt far more comfortable with them. Most of the exercises I answered myself, only with a few did I have to look at the sample answers but even then I could break down the code and understand what it was doing.
+      </p>
+      <p class="text-left" style="line-height: 2.2">
+        Writing in pseudocode really helped what I was trying to achieve, breaking down the code into smaller parts also helped. I would then console log every step of the way. If it would log what I was expecting then great if it didn't then I would explore why. Multiple occasions I would ask the cohort for help and before I received the answer the process of asking in itself solved the solution.
+      </p>
+      <p class="text-light bg-dark text-center border-top mb-3" style="line-height: 2.2">
+        So reflecting on week 4 I learnt a lot about myself in terms of how I learn and how I attack coding problems, I've also learnt the methods I need to keep utilizing and most importantly I've learnt that we need to go at our own pace. It took courage for me to tell myself slow down, take a step back and start again.
+      </p>
+    </div>
+  </main>
+
+  </body>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  </html>
