@@ -9,6 +9,10 @@ body {
   /* height: 3000px; */
 }
 
+#spanindex:hover {
+  text-decoration: line-through;
+}
+
 .bree-serif {
   font-family: 'Bree Serif', serif;
   font-size: 2em;
